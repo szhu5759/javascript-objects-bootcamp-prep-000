@@ -18,7 +18,7 @@ console.log(meows)
 
 const meows2 = {
   Orange: "Peaches",
-  ["White and Black"]: "Moo Moo",
+  Cow: "Moo Moo",
   Gray: "Dusty"
 }
 
