@@ -3,4 +3,4 @@ var meals = {
   lunch: "avocado",
   dinner: "avocado"
 }
-console.log(meals.breakfast)
+console.log(meals.breakfast,meals.lunch,meals.dinner)
