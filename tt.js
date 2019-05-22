@@ -7,3 +7,7 @@ var meals = {
 meals.snack = 'yogurt'
 
 console.log(meals.snack)
+
+meals['second breakfast'] = 'bagel'
+
+console.log(bagel)
