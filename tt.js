@@ -1,5 +1,6 @@
 const firstMeal = "breakfast"
 //firstMeal set to "breakfast" with constant
+console.log(meals)
 var meals = { firstMeal: "oatmeal" }
 //firstMeal set to "oatmeal"
 
