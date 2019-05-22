@@ -1,4 +1,4 @@
-var playlist = { artistName : songTitle }
+var playlist = { The Kooks : "Naive" }
 
 //function called updatePlaylist
 //accepts three parameters (playlist, artistName, songTitle)
