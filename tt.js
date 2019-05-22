@@ -1,10 +1,10 @@
-function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-  obj[key] = value
-  return Object
+var playlist = { ['The Kooks'] : "Naive" }
+
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle
+  return playlist
 }
 
-const recipe = { eggs : 3 }
-
-destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups')
-
-console.log(recipe)
+const music = { 
+  Rihanna: "Umbrella",
+  ['DeathCab for Cutie']: "I'll follow you into the dark" }
