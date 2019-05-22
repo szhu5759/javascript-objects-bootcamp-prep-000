@@ -1,3 +1,4 @@
-var meals = {}
 
-console.log(meals)
+var meals = {1}
+
+print(meals)
