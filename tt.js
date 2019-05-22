@@ -1,6 +1,13 @@
-var playlist = { ['The Kooks'] : "Naive" }
+var kitten = { White: "Snow"}
 
-function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = songTitle
-  return playlist
+function assignObjects(kitten,name,color) {
+  
+  return Object.assign({}, kitten, {[name]: color
+  })
+}
+
+const meows = { 
+  White: "Snow",
+  Black: "Midnight",
+  Yellow "Honey",
 }
