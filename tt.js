@@ -8,7 +8,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 const music = {
   Rihanna: "Umbrella",
   ['DeathCab for Cutie']: "I'll follow you into the dark",
-  A: B}
+  A: "B"}
 
 updatePlaylist(music)
 
