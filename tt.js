@@ -1,13 +1,10 @@
-var meals = {
-  breakfast: 'oatmeal',
-  lunch: 'burrito',
-  dinner: 'steak'
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
+  obj[key] = value
+  return Object
 }
 
-meals.snack = 'yogurt'
+const recipe = { eggs : 3 }
 
-console.log(meals.snack)
+destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups')
 
-meals['second breakfast'] = 'bagel'
-
-console.log(second breakfast)
+console.log(recipe)
