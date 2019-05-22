@@ -15,3 +15,9 @@ const meows = {
 assignObjects(meows)
 
 console.log(meows)
+
+const meows2 = {
+  Orange: "Peaches"
+  ["White and Black"]: "Moo Moo"
+  Gray: "Dusty"
+}
