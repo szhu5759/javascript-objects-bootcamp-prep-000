@@ -5,6 +5,10 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return playlist
 }
 
-const music = { 
+const music = {
   Rihanna: "Umbrella",
   ['DeathCab for Cutie']: "I'll follow you into the dark" }
+
+updatePlaylist(music)
+
+console.log(music)
