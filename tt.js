@@ -1,6 +1,6 @@
 const firstMeal = "breakfast"
 
-var meals = { [firstMeal]: "oatmeal" }
+var meals = { firstMeal: "oatmeal" }
 
 console.log(meals.breakfast + " and " + meals['breakfast'] + " are the same")
 console.log(meals[firstMeal])
