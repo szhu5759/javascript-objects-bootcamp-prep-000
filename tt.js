@@ -1,6 +1,7 @@
-var meals = {
-  breakfast: "avocado",
-  lunch: "avocado",
-  dinner: "avocado"
-}
-console.log(meals.breakfast,meals.lunch,meals.dinner)
+const firstMeal = "breakfast"
+//firstMeal set to "breakfast" with constant
+var meals = { firstMeal: "oatmeal" }
+//firstMeal set to "oatmeal"
+
+//Let's see which one prints for us when calling meals
+console.log(meals)
