@@ -5,4 +5,4 @@ var meals = { firstMeal: "oatmeal" }
 //firstMeal set to "oatmeal"
 
 //Let's see which one prints for us when calling meals
-meals.breakfast
+console.log(meals.breakfast)
