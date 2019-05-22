@@ -1,3 +1,3 @@
 
-var meals = {1:1}
+var meals = { breakfast: 1}
 console.log(meals)
