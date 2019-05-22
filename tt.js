@@ -7,7 +7,7 @@ function assignObjects(kitten,name,color) {
 }
 
 const meows = {
-  White: "Snow",
+  [White]: "Snow",
   Black: "Midnight",
   Yellow: "Honey"
 }
