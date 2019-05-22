@@ -1,6 +1,6 @@
-var meals = new Object()
 
-var meals = {
+
+var meals = new Object ({
   breakfast: "eggs"
-  breakfast: "bacon"}
+  breakfast: "bacon"})
 console.log(meals)
