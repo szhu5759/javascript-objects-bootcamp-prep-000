@@ -11,3 +11,7 @@ const meows = {
   Black: "Midnight",
   Yellow "Honey",
 }
+
+assignObjects(meows)
+
+console.log(meows)
