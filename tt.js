@@ -1,6 +1,5 @@
-
-
 var meals = {
-  breakfast: "eggs",
-  breakfast: "bacon"}
-console.log(meals)
+  breakfast: "avocado",
+  lunch: "avocado",
+  dinner: "avocado"
+}
